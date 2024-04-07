@@ -1,0 +1,547 @@
+*{
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+.navbar{
+  z-index: 9999;
+}
+
+  #home {
+    background: url("images/sagar2.jpg") repeat scroll center center / cover;
+    height: 100vh;
+    width: 100%;
+  }
+
+  nav ul li a{
+    font-size: 20px;
+  }
+
+  .collapse{
+    margin: 13px;
+    display: flex;
+  }
+  
+  
+  #home .header-content {
+    height: 180vh;
+    text-align: left;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .header-content h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  
+  .header-content p {
+    font-size: 13px;
+    letter-spacing: 5px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 500;
+  }
+  
+  .header-content .list-social li {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 100px;
+  }
+  
+  .header-content .list-social li i {
+    color: #fff;
+    font-size: 15px;
+  }
+  
+
+  #about {
+    width: 100%;
+    height: auto;
+    background: #f7f7f7;
+    padding-top: 190px;
+  }
+  
+  #about .div-img-bg {
+    padding-bottom: 30px;
+    border: 20px solid #00b3b3;
+  }
+  
+  #about .div-img-bg .about-img img {
+    width: 100%;
+    box-shadow: -5px 5px 10px #00b3b3;
+    margin-top: -60px;
+    margin-left: 40px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 2px;
+  }
+  
+  #about .about-descr .p-heading {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    text-align: left;
+  }
+  
+  #about .about-descr .separator {
+    max-width:100%;
+    margin-bottom: 0;
+    text-align: left;
+    word-spacing: 1rem;
+  }
+
+  
+  #services {
+    background: #f7f7f7;
+    position: relative;
+    padding-bottom: 80px;
+    min-height: 800px;
+  }
+  
+  .owl-item {
+    float: left;
+  }
+  .services-block span {
+    margin: 10px 0;
+    position: relative;
+    font-size: 13px;
+    color: #292929;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: block;
+  }
+  
+  .services-block .separator {
+    margin: 0;
+    font-size: 13px;
+    line-height: 22px;
+  }
+  
+  .services-block i {
+    font-size: 44px;
+    color: #00b3b3;
+    line-height: 44px;
+  }
+  
+  
+  .services-carousel  .owl-stage-outer {
+    overflow: hidden;
+  }
+  
+  .services-carousel .owl-dots {
+    margin-top: 5px;
+    text-align: center;
+  }
+  
+  .services-carousel .owl-dot {
+    display: inline-block;
+    margin: 0 5px;
+    width: 12px !important;
+    height: 12px !important;
+    border-radius: 50%;
+    border: 0;
+    padding: 0 !important;
+    background-color: #ddd;
+    cursor: pointer;
+  }
+  
+  .services-carousel .owl-dot.active {
+    background-color: #00b3b3;
+  }
+  
+
+
+  /* Project */
+
+
+#skills{
+ margin-top: 100px;
+}
+
+#skills .common-heading{
+  text-align: center;
+}
+
+#skills .btn{
+  color: #000;
+  cursor: pointer;
+}
+
+#skills .btn.active{
+  color: #3498db;
+  /* transition: all 0.5s ease-in; */
+}
+
+#skills .p-btn{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 20px;
+}
+
+#skills h1{
+  flex-wrap: wrap;
+}
+
+.p_img_not_active{
+  display: none;
+}
+
+.grid-three-col{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.box{
+  display: flex;
+  flex-wrap: wrap;
+}
+/* 
+.portflio-images{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+} */
+
+.overlay{
+  background-color: #00b3b3;
+  width: 250px;
+  height: 180px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.3);
+}
+
+.overlay:hover{
+  transform: translateY(-10px);
+  transition:all 0.3s ease ;
+}
+
+
+/* Project */
+
+
+
+/* Bio-Data start* */
+#bio-Data{
+  margin-top: 100px;
+}
+.grid-two-col{
+  display:flex;
+}
+
+
+
+.grid-two-col p{
+  max-width: 80%;
+}
+
+.grid-two-col img{
+  width: 300px;
+  height: 400px;
+  box-shadow: 30px -30px #afafaf;
+  border-radius: 10px;
+  margin-top: 200px;
+  margin-right: 100px;
+}
+
+.bio-data-btn{
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+
+.bio-data-btn button a{
+  text-decoration: none;
+  color: #fff;
+  background-color: #3498db;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+.bio-stats h4{
+  margin-bottom: 10px;
+}
+
+.bio-data-stats{
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.bio-progress-bar{
+  width: 70%;
+  background-color: #eee;
+  height: 6px;
+  position: relative;
+}
+
+/* .bio-progress-bar::before{
+  content: '';
+  background-color: #3498db;
+  width: 100%;
+  height: 6px;
+  position: absolute;
+} */
+
+.bio-progress1::before{
+  content: '';
+  background-color: #3498db;
+  width: 99%;
+  height: 6px;
+  position: absolute;
+}
+
+
+.bio-progress2::before{
+  content: '';
+  background-color: #3498db;
+  width: 90%;
+  height: 6px;
+  position: absolute;
+}
+
+.bio-progress3::before{
+  content: '';
+  background-color: #3498db;
+  width: 70%;
+  height: 6px;
+  position: absolute;
+}
+
+.bio-progress4::before{
+  content: '';
+  background-color: #3498db;
+  width: 75%;
+  height: 6px;
+  position: absolute;
+}
+
+.bio-data-stats span{
+  background-color: #e21590;
+  width: 4rem;
+  height: 20px;
+  padding: 4px;
+  color: #fff;
+  position: absolute;
+  top: 10px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.bio-progress1 span{
+  left: 92%;
+}
+
+.bio-progress2 span{
+  left: 83%;
+}
+
+.bio-progress3 span{
+  left: 63%;
+}
+
+.bio-progress4 span{
+  left: 68%;
+}
+
+.bio-progress-bar span::after{
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 0.5rem solid #e21590;
+  border-color: transparent;
+  border-bottom-color: #e21590;
+  top: -15px;
+}
+
+.bio-data h2{
+  text-align: center;
+  margin: 50px;
+}
+
+/* Bio-Data end */
+
+/* Services section */
+
+#services{
+  margin-top: 50px;
+  background-color: #050711;
+  color: #fff;
+  width: 100%;
+  min-height: 400px;
+  padding: 20px 50px;
+}
+
+.serv{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.service{
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis:30%;
+}
+
+.service i{
+  color: #fff;
+}
+
+.service h2{
+  padding:0  20px;
+}
+
+.service p{
+  padding:0  20px;
+}
+
+.service{
+  display: flex;
+  background-color: #292929;
+  padding: 10px;
+}
+
+.col-lg-6 h2{
+  margin: 20px;
+  text-decoration: underline;
+}
+
+#submit{
+  background-color: #00b3b3;
+  color: #fff;
+}
+
+/* Services section end */
+
+.footer-section{
+  margin-top: 20px;
+  background-color: #eee;
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  position: relative;
+}
+
+.footer-section p{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: 0;
+}
+
+
+.service:hover{
+  background-color: #e21590;
+  transform: translateY(-20px);
+  transition: all 0.5s ease;
+}
+
+#services h1{
+  margin: 20px;
+}
+
+/* Contact Section start */
+
+.contact-details li{
+  list-style: none;
+}
+
+.social-media-icon{
+  display: flex;
+  gap: 15px;
+}
+
+.social-media-icon i{
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+/* Contact Section end */
+
+
+/* @media screen and (max-width:180px) {
+  .service{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+  }
+  
+} */
+  @media only screen and (min-width:100px) and (max-width:768px) {
+
+    .service h2{
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    #bio-Data img{
+      display: flex;
+      width: 100%; 
+    }
+
+    .service{
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 100%;
+    }
+    
+
+    .grid-two-col{
+      display:flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+
+    .bio-data{
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+
+    .bio-data img{
+      width: 100%;
+    }
+
+    .serv{
+      width: 100%;
+      flex-direction: column;
+    }
+    }
+
+    .grid-two-col p{
+      display: flex;
+      max-width: 100%;
+    }
+
+  
+
+  
