@@ -18,7 +18,7 @@ p_btns.addEventListener('click',(e) =>{
 
 
     const btn_num = pbtn.dataset.btnNum;
-    // console.log(btn_num);
+    console.log(btn_num);
 
     const img_active = document.querySelectorAll(`.btn-${btn_num}`)
 
